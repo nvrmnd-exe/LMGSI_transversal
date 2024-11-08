@@ -3,9 +3,8 @@ body {
     background-color: #636363;
     margin: 0;
 }
-.page {
+.pageGeneral {
     width: 80%;
-    background-color: #5e386e;
     margin: 0 auto;
 }
 
@@ -24,7 +23,13 @@ header, header p {
     width: 75px;
 }
 header h1 {
-    font-family: "Agdasima";
+    font-family: "Rubik Wet Paint";
+    padding-left: 5px;
 }
 
 /* --- PÀGINA --- */
+.page {
+    background-color: #401c4f;
+    padding: 5px;
+    color: whitesmoke;
+}
