@@ -15,6 +15,7 @@ h1 {
 
 p, li {
     font-family: "Agdasima";
+    font-size: 120%;
 }
 
 .flex {
@@ -23,7 +24,7 @@ p, li {
 }
 
 /* --- HEADER --- */
-header, header p {
+header{
     background-color: #5e386e;
     width: 100%;
     margin-top: 0;
@@ -34,13 +35,22 @@ header, header p {
     width: 75px;
 }
 
-header li {
-    list-style-type: none;
-    padding: 0 1px;
+header .pageGeneral {
+    justify-content: space-between;
+    align-items: center;
 }
 
-header li:hover {
+header a {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+header a:hover {
     background-color: #401c4f;
+    color: whitesmoke;
 }
 
 /* --- PÀGINA --- */
@@ -48,4 +58,24 @@ header li:hover {
     background-color: #401c4f;
     padding: 5px;
     color: whitesmoke;
+}
+
+/* --- PIE DE PAGINA --- */
+footer {
+    background-color: #5e386e;
+    text-align: center;
+    align-items: center;
+}
+.pies {
+    display: flex;
+    justify-content: space-between
+}
+
+.redesImg {
+    width: 30px;
+    transition: filter 0.3s ease;
+    transition: 0.5s;
+}
+.redesImg:hover{
+    filter: invert(1); 
 }
