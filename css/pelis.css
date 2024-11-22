@@ -60,7 +60,8 @@ header a:hover {
     color: whitesmoke;
 }
 .pageGeneral h1, h2 {
-    margin: 0 10px;
+    margin: 10px;
+    margin-top: 10px;
 }
 
 /* --- SECCIONS ---*/
@@ -71,16 +72,17 @@ header a:hover {
 .portada {
     width: 20%;
     padding: 5px;
+    text-align: center;
 }
 
 .portada img {
     width: 70%;
-    margin: 0 auto;
     border-radius: 5%;
 }
 .contenido {
     width: 75%;
     padding: 5px;
+    padding-top: 20px;
 }
 
 /* --- PIE DE PAGINA --- */
