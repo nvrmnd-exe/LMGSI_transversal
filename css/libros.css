@@ -59,12 +59,25 @@ header a:hover {
     padding: 5px;
     color: whitesmoke;
 }
-.divLibro {
-    overflow: hidden;
-    text-align: center;
+
+/* --- SECCIONS ---*/
+
+.seccion {
+    margin: 10px;
+    margin-top: 50px;
 }
-.divLibro img {
-    width: 350px;
+.portada {
+    width: 20%;
+    padding: 5px;
+}
+.portada img {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+.contenido {
+    width: 75%;
+    padding: 5px;
 }
 
 /* --- PIE DE PAGINA --- */
