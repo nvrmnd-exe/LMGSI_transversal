@@ -70,14 +70,22 @@ header a:hover {
     margin-top: 50px;
     align-items: center;
 }
+
 .portada {
     width: 20%;
     padding: 5px;
-    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
 }
 
 .portada img {
-    width: 70%;
+    width: 80%;
     border-radius: 5%;
 }
 .contenido {
