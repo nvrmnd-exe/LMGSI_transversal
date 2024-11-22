@@ -59,7 +59,7 @@ header a:hover {
     padding: 5px;
     color: whitesmoke;
 }
-.pageGeneral h1, h2, div {
+.pageGeneral h1, h2 {
     margin: 0 10px;
 }
 
@@ -69,17 +69,17 @@ header a:hover {
     margin-top: 50px;
 }
 .portada {
-    width: 28%;
+    width: 20%;
     padding: 5px;
 }
 
 .portada img {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     border-radius: 5%;
 }
 .contenido {
-    width: 70%;
+    width: 75%;
     padding: 5px;
 }
 
