@@ -69,7 +69,7 @@ header a:hover {
 
 .seccion:hover {
     background-color: #5e386e;
-    box-shadow: 2px 1px 4px 0.2px black;
+    box-shadow: 2px 1px 4px 0.2px #361544fa;
     border-radius: 10px;
 }
 
