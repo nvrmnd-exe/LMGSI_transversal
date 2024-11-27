@@ -1,0 +1,134 @@
+/* --- GENERAL --- */
+body {
+    background-color: #636363;
+    margin: 0;
+}
+.pageGeneral {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: "Rubik Wet Paint";
+    padding-left: 5px;
+}
+
+p, li, a {
+    font-family: "Agdasima";
+    font-size: 120%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* --- HEADER --- */
+header{
+    background-color: #5e386e;
+    width: 100%;
+    margin-top: 0;
+    padding: 5px 10px;
+}
+
+.logo {
+    width: 75px;
+}
+
+header .pageGeneral {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+header a:hover {
+    background-color: #401c4f;
+    color: whitesmoke;
+}
+
+/* --- PÀGINA --- */
+.page {
+    background-color: #401c4f;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.pageGeneral h1, h2 {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+/*--- DIVISIÓ ENTRE SERIES I DOCUMENTAL ---*/
+.series-docu {
+    width: 47%;
+}
+
+.page {
+    justify-content: space-around;
+}
+
+/*--- SECCIONS ---*/
+.seccio {
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    transition: 0.5s;
+}
+.portada {
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+}
+.portada img {
+    width: 60%;
+    border-radius: 5%;
+}
+
+.link {
+    background-color: #FFF5;
+    padding: 5px 20px 7px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #401c4f;
+    transition: 0.2s;
+    margin: 0 3px;
+}
+
+.link:hover {
+    background-color: #401c4f;
+    color: #FFF7;
+}
+
+.seccio:hover {
+    transform: scale(1.1);
+    background-color: #5e386e;
+    border-radius: 5px;
+}
+
+/* --- PIE DE PAGINA --- */
+footer {
+    background-color: #5e386e;
+    text-align: center;
+}
+
+.pies {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redesImg {
+    width: 30px;
+    transition: filter 0.3s ease;
+    margin: 5px;
+}
+.redesImg:hover{
+    filter: invert(1); 
+}
