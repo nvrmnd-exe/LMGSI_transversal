@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="shortcut icon" href="img/general/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Rubik+Wet+Paint&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+</head>
+
+<body>
+    <header> <!-- PENDIENTE DE ACABAR HEADER -->
+        <div class="flex pageGeneral">
+            <div class="flex left">
+                <div class="logo"> <!-- Logo -->
+                    <img class="logo" src="img/general/logo.png" alt="Page logo">
+                </div>
+                <h1>True crime</h1>
+            </div>
+
+            <div class="right flex"> <!-- Secciones -->
+                <ul class="flex">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pelis.html">Peliculas</a></li>
+                    <li><a href="series-docu.html">Series</a></li>
+                    <li><a href="libros.html">Libros</a></li>
+                    <li><a href="otros.html">Otros</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="pageGeneral page">
+        <div class="titulo">
+            <h1>Nosotros</h1>
+        </div>
+
+        <div class="nosotros flex">
+            <div class="member">
+                <div class="pfp">
+                    <a href="yoon.html"><img src="img/nosotros/key.webp" alt=""></a>
+                </div>
+                <h3>Yoon López</h3>
+            </div>
+
+            <div class="member">
+                <div class="pfp">
+                    <a href="carlos.html"><img src="img/nosotros/Katniss.webp" alt=""></a>
+                </div>
+                <h3>Carlos Pérez</h3>
+            </div>
+        </div>
+
+        <div class="form">
+            <h2>Contacta con nostros</h2>
+            <form action="form.html" method="get">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" name="correo" id="correo" placeholder="Correo electrónico">
+
+                <label for="nac">Año de nacimiento</label>
+                <input type="number" name="nac" id="nac" placeholder="Año de nacimiento">
+
+                <label for="gender">Género</label>
+                <select id="gender" name="gender">
+                    <option value="---">---</option>
+                    <option value="hombre">hombre</option>
+                    <option value="mujer">mujer</option>
+                    <option value="no binarie">no binarie</option>
+                </select>
+
+                <label for=""></label>
+                <input type="checkbox" name="" id="">
+
+
+                <!--
+                    [text curt]
+                    [correo]
+                    [numerica]
+                    [desplegable 2 elementos]
+                    [checkbox 3 elementos con opción marcada como defecto]
+                    radio buttons 3 elementos con una marcada por defecto
+                    texto largo con placeholder
+    
+                    campos obligatorios
+                    botón para enviar
+    
+                    cuando se ha enviado: pagina conforme se ha enviado correctamente y que tenga para volver atrás
+                -->
+            </form>
+        </div>
+
+        <!-- HAY QUE AÑADIR FORM -->
+        <!-- EN CADA NOMBRE UN ENLACE AL CURRÍCULUM, SE TIENE QUE ABRIR EN UNA NUEVA PESTAÑA -->
+        <!-- LO DEL CSS -->
+        <!-- TABLA DE ESTUDIOS: 5 COL Y 5 FILES -->
+        <!-- TAULA DE TROJECTES AMB 3 COL I 5 FILES -->
+    </div>
+
+    <footer> <!-- PIE DE PAGINA -->
+        <div class="pageGeneral pies flex">
+
+            <h1>True crime</h1>
+            <div class="flex"> <!-- redes sociales -->
+                <div> <!-- Logo -->
+                    <a href="https://www.x.com"><img class="redesImg" src="img/icons/twitter.png"
+                            alt="Twitter logo"></a>
+                </div>
+                <div> <!-- Logo -->
+                    <a href="https://www.x.com"><img class="redesImg" src="img/icons/reddit.png" alt="Reddit logo"></a>
+                </div>
+                <div> <!-- Logo -->
+                    <a href="https://www.x.com"><img class="redesImg" src="img/icons/instagram.png"
+                            alt="Instagram logo"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
