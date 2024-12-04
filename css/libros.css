@@ -1,23 +1,26 @@
 /* --- SECCIONS ---*/
-
-.seccion {
+.seccio {
     margin: 10px;
-    margin-top: 50px;
     align-items: center;
-}
-
-.seccion:hover {
-    background-color: #5e386e;
-    box-shadow: 2px 1px 4px 0.2px #361544fa;
-    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
 }
 
 .portada {
     width: 20%;
     padding: 5px;
 }
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
 .portada img {
-    width: 70%;
+    width: 80%;
     border-radius: 5%;
 }
 .contenido {
@@ -32,4 +35,16 @@
     border-radius: 10px;
     color: #401c4f;
     transition: 0.2s;
+    margin: 0 3px;
+}
+
+.link:hover {
+    background-color: #401c4f;
+    color: #FFF7;
+}
+
+.seccio:hover {
+    transform: scale(1.1);
+    background-color: #5e386e;
+    border-radius: 5px;
 }
