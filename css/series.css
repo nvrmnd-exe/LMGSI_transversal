@@ -1,31 +1,28 @@
-/* --- SECCIONS ---*/
+/*--- DIVISIÓ ENTRE SERIES I DOCUMENTAL ---*/
+.series-docu {
+    width: 47%;
+}
+
+.page {
+    justify-content: space-around;
+}
+
+/*--- SECCIONS ---*/
 .seccio {
     margin: 10px;
     align-items: center;
     padding: 10px;
     transition: 0.5s;
+    height: 700px;
 }
-
 .portada {
-    width: 20%;
+    width: 500px;
     padding: 5px;
+    text-align: center;
 }
-
-.left {
-    text-align: left;
-}
-
-.right {
-    text-align: right;
-}
-
 .portada img {
-    width: 80%;
+    width: 300px;
     border-radius: 5%;
-}
-.contenido {
-    width: 75%;
-    padding-bottom: 50px;
 }
 
 .link {
