@@ -1,20 +1,102 @@
+/* BACKGROUND */
+
 .flex.container {
     position: relative;
-    background-position: center;
-    background-image: url(../img/general/logo.png);
-    background-size: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
+    z-index: 1; /* Coloca el contenido por encima del pseudo-elemento */
 }
+
 .flex.container::before {
-    content: "";
+    content: '';
     position: absolute;
-    background-image: url(../img/general/logo.png);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/general/logo.png');
+    background-size: cover;
     background-position: center;
-    background-size: auto;
-    opacity: 0.2;
+    background-repeat: no-repeat;
+    opacity: 0.3;
     z-index: -1;
 }
-.container-text {
 
+/* CUERPO PAGINA */
+
+.container-text ul {
+    list-style-type: disc;
+    margin-left: 20px; 
+    padding-left: 20px;
+}
+.secciones-botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.secciones-botones a {
+    text-decoration: none;
+}
+
+.cuadrado {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 48%;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s;
+    text-shadow:     
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+.cuadrado:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.peliculas::before {
+    background-image: url('../img/index/peliculas.jfif');
+    border-radius: 10px;
+
+}
+.libros::before {
+    background-image: url('../img/index/libros.jpg');
+    border-radius: 10px;
+}
+
+.series::before {
+    background-image: url('../img/index/series.jpg');
+    border-radius: 10px;
+}
+
+.otros::before {
+    background-image: url('../img/index/otros.jpg');
+    border-radius: 10px;
+}
+
+.cuadrado::before {
+    content: "";
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.cuadrado:hover::before {
+    opacity: 0.5;
+    transform: scale(1.1); /* Opcional: un ligero zoom al fondo */
 }

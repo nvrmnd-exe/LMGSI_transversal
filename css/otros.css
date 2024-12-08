@@ -1,0 +1,47 @@
+/*--- DIVISIÓ ENTRE YOUTUBE I BLOGS ---*/
+.series-docu {
+    width: 47%;
+}
+
+.page {
+    justify-content: space-around;
+}
+
+/*--- SECCIONS ---*/
+.seccio {
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    transition: 0.5s;
+    height: 700px;
+}
+.portada {
+    width: 500px;
+    padding: 5px;
+    text-align: center;
+}
+.portada img {
+    width: 300px;
+    border-radius: 5%;
+}
+
+.link {
+    background-color: #FFF5;
+    padding: 5px 20px 7px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #401c4f;
+    transition: 0.2s;
+    margin: 0 3px;
+}
+
+.link:hover {
+    background-color: #401c4f;
+    color: #FFF7;
+}
+
+.seccio:hover {
+    transform: scale(1.1);
+    background-color: #5e386e;
+    border-radius: 5px;
+}
