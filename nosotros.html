@@ -46,14 +46,14 @@
         <div class="nosotros flex">
             <div class="member">
                 <div class="pfp">
-                    <a href="yoon.html"><img src="img/nosotros/key.webp" alt=""></a>
+                    <a href="yoon.html" target="_blank"><img src="img/nosotros/key.webp" alt=""></a>
                 </div>
                 <h3>Yoon López</h3>
             </div>
 
             <div class="member">
                 <div class="pfp">
-                    <a href="carlos.html"><img src="img/nosotros/Katniss.webp" alt=""></a>
+                    <a href="carlos.html" target="_blank"><img src="img/nosotros/Katniss.webp" alt=""></a>
                 </div>
                 <h3>Carlos Pérez</h3>
             </div>
@@ -62,10 +62,10 @@
         <div class="form">
             <h2>Contacta con nostros</h2>
             <form action="form.html" method="get">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <label for="nombre">Nombre <span>*</span></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
 
-                <label for="correo">Correo electrónico</label>
+                <label for="correo">Correo electrónico <span>*</span></label>
                 <input type="email" name="correo" id="correo" placeholder="Correo electrónico">
 
                 <label for="nac">Año de nacimiento</label>
@@ -73,38 +73,38 @@
 
                 <label for="gender">Género</label>
                 <select id="gender" name="gender">
-                    <option value="---">---</option>
+                    <option value="---" disabled selected>---</option>
                     <option value="hombre">hombre</option>
                     <option value="mujer">mujer</option>
                     <option value="no binarie">no binarie</option>
                 </select>
 
                 <label for="check">Secciones interesadas</label>
-                <input type="checkbox" name="check" id="peliculas" value="Películas">
+                <input type="checkbox" name="check" id="peliculas" class="not-block" checked>
+                <label for="peliculas" class="not-block">Películas</label>
+                <input type="checkbox" name="check" id="series" class="not-block">
+                <label for="series" class="not-block">Series</label>
+                <input type="checkbox" name="check" id="libros" class="not-block">
+                <label for="libros" class="not-block">Libros</label>
+                <input type="checkbox" name="check" id="otros" class="not-block">
+                <label for="otros" class="not-block">Otros</label>
 
+                <label for="radio">¿Cómo nos has conocido?</label>
+                <input type="radio" name="radio" id="redes" class="not-block" checked>
+                <label for="redes" class="not-block">Redes sociales</label>
+                <input type="radio" name="radio" id="anuncios" class="not-block">
+                <label for="anuncios" class="not-block">Anuncios</label>
+                <input type="radio" name="radio" id="amigos" class="not-block">
+                <label for="amigos" class="not-block">Recomendaciones de conocidos</label>
+                <input type="radio" name="radio" id="otros" class="not-block">
+                <label for="otros" class="not-block">Otros</label>
 
-                <!--
-                    [text curt]
-                    [correo]
-                    [numerica]
-                    [desplegable 2 elementos]
-                    [checkbox 3 elementos con opción marcada como defecto]
-                    radio buttons 3 elementos con una marcada por defecto
-                    texto largo con placeholder
-    
-                    campos obligatorios
-                    botón para enviar
-    
-                    cuando se ha enviado: pagina conforme se ha enviado correctamente y que tenga para volver atrás
-                -->
+                <label for="opinion">Mensaje <span>*</span></label>
+                <textarea name="opinion" id="Opinion" placeholder="Escribe aquí tu opinión/mensaje..." required></textarea>
+
+                <input type="submit" value="Enviar">
             </form>
         </div>
-
-        <!-- HAY QUE AÑADIR FORM -->
-        <!-- EN CADA NOMBRE UN ENLACE AL CURRÍCULUM, SE TIENE QUE ABRIR EN UNA NUEVA PESTAÑA -->
-        <!-- LO DEL CSS -->
-        <!-- TABLA DE ESTUDIOS: 5 COL Y 5 FILES -->
-        <!-- TAULA DE PROJECTES AMB 3 COL I 5 FILES -->
     </div>
 
     <footer> <!-- PIE DE PAGINA -->
